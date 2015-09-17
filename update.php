@@ -78,6 +78,7 @@ if ( !empty($_POST['lname']) && !empty($_POST['fname']) && !empty($_POST['email'
         Apartament: <br><input type="number" name="apartament" value="<?php echo $myArray[0]['Apartament']; ?>"><br>
         <input type="submit" type="submit" value="UPDATE">
       </form>
+      <a href="index.php"><button type="button">Back</button>
     </div>
   </body>
 </html>
